@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+  
+}
+.name{
+    display:flex;
+    position: absolute;
+    font-size: 30px;
+    top: 8%;
+    left: 25%;
+    
+}
+.profile{
+    width: 200px;
+    height:220.5px;
+    border-radius: 50%;
+    padding: 5px;
+    background:linear-gradient(45deg,#ff00cc,#3333ff,#00ffcc);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+    box-shadow: 0 0 20px #00ffcc, 0 0 30px #3333ff,0 0 40px #00ffcc;
+    animation: glow 3s infinite linear;
+    position: absolute;
+    top: 5%;
+    right:10%;
+   
+
+}
+
+.profileimage{
+    width:180px; 
+    height:201px ;
+    border-radius: 50%;
+    object-fit: cover;
+    border:4px solid rgb(251, 249, 249);
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+
+}
+
+@keyframes glow {
+    0%{box-shadow:0 0 10px #00ffcc,0 0 20px #3333ff,0 0 30px #00ffcc}
+    50%{box-shadow:0 0 20px #00ffcc,0 0 40px #3333ff,0 0 60px #00ffcc}
+    100%{box-shadow:0 0 10px #00ffcc,0 0 20px #3333ff,0 0 30px #00ffcc}
+}
+.profileimage:hover{
+    transform:scale(1.1) rotate(3deg);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+h1{
+    color: rgb(52, 200, 200);
+    text-shadow: 4px 4px 6px rgba(102, 60, 60, 0.2);
+}
+
+nav  a {
+    margin-left:20px;
+    text-decoration: none;
+    color: #964f88;
+ font-size: 25px;
+ top: 30%;
+}
+
+.a1{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.a2{
+    position:absolute;
+    top:30%;
+    left:40%;
+}
+
+.a3{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+  hr{
+    color:azure;
+    width: 80%;
+    position: absolute;
+    top:40%;
+    left:10%;
+  }
+
+  .aboutheading{
+       /* display:flex; */
+        position: absolute;
+    top:45%;
+    left:10%;
+
+    
+   font-size: 30px;
+    color:rgb(146, 141, 78);
+  }
+
+  .aboutme{
+    position: absolute;
+    top:55%;
+    left:10%;
+    right:10%;
+    display:flex;
+    margin:10px 10px 50px 0px;
+   font-size: 20px;
+    color:whitesmoke;
+  }
+ 
+  .container2{
+    display: flex;
+  
+    margin-top: 550px;
+    margin-left: 10%;
+}
+  .projectheading{
+    font-size: 30px;
+    color:rgb(146, 141, 78);
+  }
+  .project-list{
+    width:500px; 
+    height:200px ;
+    border-radius: 10%;
+    margin-left: 5%;
+    border:2px solid rgb(251, 249, 249);
+margin-top: 50px;
+  }
+
+  .projecttitle{
+    margin-top: 10%;
+    margin-left: 35%;
+    font-size: 20px;
+    color:rgb(197, 125, 31);
+  }
+  
+  .projectpara{
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 15px;
+    color:whitesmoke;
+  }
+
+  .git{
+    margin-left: 10%;
+    color: #3333ff;
+  }
+
+  .container3{
+    display: flex;
+  
+    margin-top: 25px;
+    margin-left: 10%;
+  }
+ 
+
